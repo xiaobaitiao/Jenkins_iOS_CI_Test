@@ -518,10 +518,12 @@
 			baseConfigurationReference = 9D9DA56E76919F7925EA7E43 /* Pods-JenkinsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
 				INFOPLIST_FILE = JenkinsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.JenkinsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fda69a0f-af14-42d9-8302-d219213071f7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
 			};
 			name = Debug;
@@ -542,10 +544,12 @@
 		D888F78D1CCF543B00946596 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
 				INFOPLIST_FILE = JenkinsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.JenkinsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fda69a0f-af14-42d9-8302-d219213071f7";
 				TEST_TARGET_NAME = Jenkins;
 				USES_XCTRUNNER = YES;
 			};
