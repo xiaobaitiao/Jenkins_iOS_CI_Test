@@ -34,20 +34,6 @@
                ReferencedContainer = "container:Jenkins.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D888F77C1CCF543B00946596"
-               BuildableName = "JenkinsUITests.xctest"
-               BlueprintName = "JenkinsUITests"
-               ReferencedContainer = "container:Jenkins.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -63,16 +49,6 @@
                BlueprintIdentifier = "D888F7711CCF543B00946596"
                BuildableName = "JenkinsTests.xctest"
                BlueprintName = "JenkinsTests"
-               ReferencedContainer = "container:Jenkins.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D888F77C1CCF543B00946596"
-               BuildableName = "JenkinsUITests.xctest"
-               BlueprintName = "JenkinsUITests"
                ReferencedContainer = "container:Jenkins.xcodeproj">
             </BuildableReference>
          </TestableReference>

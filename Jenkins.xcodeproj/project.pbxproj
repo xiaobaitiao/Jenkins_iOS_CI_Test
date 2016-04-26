@@ -15,18 +15,10 @@
 		D888F7691CCF543B00946596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D888F7681CCF543B00946596 /* Assets.xcassets */; };
 		D888F76C1CCF543B00946596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D888F76A1CCF543B00946596 /* LaunchScreen.storyboard */; };
 		D888F7771CCF543B00946596 /* JenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F7761CCF543B00946596 /* JenkinsTests.m */; };
-		D888F7821CCF543B00946596 /* JenkinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F7811CCF543B00946596 /* JenkinsUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D888F7731CCF543B00946596 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D888F7511CCF543B00946596 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D888F7581CCF543B00946596;
-			remoteInfo = Jenkins;
-		};
-		D888F77E1CCF543B00946596 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D888F7511CCF543B00946596 /* Project object */;
 			proxyType = 1;
@@ -51,7 +43,6 @@
 		D888F7721CCF543B00946596 /* JenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D888F7761CCF543B00946596 /* JenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTests.m; sourceTree = "<group>"; };
 		D888F7781CCF543B00946596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D888F77D1CCF543B00946596 /* JenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D888F7811CCF543B00946596 /* JenkinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsUITests.m; sourceTree = "<group>"; };
 		D888F7831CCF543B00946596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55AAC59C8F79B27A9913F42 /* libPods-JenkinsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,13 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2985879C412A93C668A3488 /* libPods-JenkinsTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D888F77A1CCF543B00946596 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +101,6 @@
 			children = (
 				D888F7591CCF543B00946596 /* Jenkins.app */,
 				D888F7721CCF543B00946596 /* JenkinsTests.xctest */,
-				D888F77D1CCF543B00946596 /* JenkinsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,24 +188,6 @@
 			productReference = D888F7721CCF543B00946596 /* JenkinsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D888F77C1CCF543B00946596 /* JenkinsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D888F78C1CCF543B00946596 /* Build configuration list for PBXNativeTarget "JenkinsUITests" */;
-			buildPhases = (
-				D888F7791CCF543B00946596 /* Sources */,
-				D888F77A1CCF543B00946596 /* Frameworks */,
-				D888F77B1CCF543B00946596 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D888F77F1CCF543B00946596 /* PBXTargetDependency */,
-			);
-			name = JenkinsUITests;
-			productName = JenkinsUITests;
-			productReference = D888F77D1CCF543B00946596 /* JenkinsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,10 +202,6 @@
 						DevelopmentTeam = LKL62BXRA9;
 					};
 					D888F7711CCF543B00946596 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = D888F7581CCF543B00946596;
-					};
-					D888F77C1CCF543B00946596 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = D888F7581CCF543B00946596;
 					};
@@ -261,7 +222,6 @@
 			targets = (
 				D888F7581CCF543B00946596 /* Jenkins */,
 				D888F7711CCF543B00946596 /* JenkinsTests */,
-				D888F77C1CCF543B00946596 /* JenkinsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,13 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D888F7701CCF543B00946596 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D888F77B1CCF543B00946596 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,14 +313,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D888F7791CCF543B00946596 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D888F7821CCF543B00946596 /* JenkinsUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -375,11 +320,6 @@
 			isa = PBXTargetDependency;
 			target = D888F7581CCF543B00946596 /* Jenkins */;
 			targetProxy = D888F7731CCF543B00946596 /* PBXContainerItemProxy */;
-		};
-		D888F77F1CCF543B00946596 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D888F7581CCF543B00946596 /* Jenkins */;
-			targetProxy = D888F77E1CCF543B00946596 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,32 +481,6 @@
 			};
 			name = Release;
 		};
-		D888F78D1CCF543B00946596 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
-				INFOPLIST_FILE = JenkinsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.JenkinsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fda69a0f-af14-42d9-8302-d219213071f7";
-				TEST_TARGET_NAME = Jenkins;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		D888F78E1CCF543B00946596 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = JenkinsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.JenkinsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Jenkins;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +507,6 @@
 			buildConfigurations = (
 				D888F78A1CCF543B00946596 /* Debug */,
 				D888F78B1CCF543B00946596 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D888F78C1CCF543B00946596 /* Build configuration list for PBXNativeTarget "JenkinsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D888F78D1CCF543B00946596 /* Debug */,
-				D888F78E1CCF543B00946596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
