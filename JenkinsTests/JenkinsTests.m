@@ -30,6 +30,9 @@
     int y = 0;
     
     expect(x).to.equal(y);
+    
+    int z = 0;
+    expect(x).to.equal(z);
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
