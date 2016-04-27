@@ -27,7 +27,7 @@
 
 - (void)testExample {
     int x = 0;
-    int y = 1;
+    int y = 0;
     
     expect(x).to.equal(y);
     // This is an example of a functional test case.
