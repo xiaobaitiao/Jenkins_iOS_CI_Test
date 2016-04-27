@@ -1,0 +1,10 @@
+PODS:
+  - Expecta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+
+COCOAPODS: 0.39.0
