@@ -464,7 +464,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.JenkinsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fda69a0f-af14-42d9-8302-d219213071f7";
+				PROVISIONING_PROFILE = "4ee5d7ef-494d-4880-9541-7245778b14a1";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
 			};
 			name = Debug;
