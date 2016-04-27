@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <Expecta/Expecta.h>
 
 @interface JenkinsTests : XCTestCase
 
@@ -25,6 +26,10 @@
 }
 
 - (void)testExample {
+    int x = 0;
+    int y = 0;
+    
+    expect(x).to.equal(y);
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
