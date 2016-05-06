@@ -234,6 +234,7 @@
 				TargetAttributes = {
 					D873592A1CD1282B00609871 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = LKL62BXRA9;
 					};
 					D87359431CD1282B00609871 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -486,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
 				INFOPLIST_FILE = Jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,10 +501,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: guoliang chen (8ZQ6M6S88G)";
 				INFOPLIST_FILE = Jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guoliang.Jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fda69a0f-af14-42d9-8302-d219213071f7";
 			};
 			name = Release;
 		};
